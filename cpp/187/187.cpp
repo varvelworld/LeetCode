@@ -68,8 +68,8 @@ public:
 
 int main()
 {
-	Solution *solution = new Solution();
-	vector<string> result = solution->findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT");
+	Solution solution;
+	vector<string> result = solution.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT");
 	for(auto iter = result.begin(); iter != result.end(); ++iter)
 		cout << *iter << endl;
 	return 0;

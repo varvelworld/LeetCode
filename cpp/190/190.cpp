@@ -17,7 +17,7 @@ public:
 };
 
 int main(void) {
-    Solution *solution = new Solution();
-    cout << solution->reverseBits(43261596) << endl;
+	Solution solution;
+    cout << solution.reverseBits(43261596) << endl;
     return 0;
 }
